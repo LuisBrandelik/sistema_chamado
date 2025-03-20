@@ -1,0 +1,13 @@
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-image: url("../imgens/fundo-de-contorno-de-borboleta-desenhado-a-mao_23-2149021149\ 1.png");
+    background-repeat: no-repeat;
+    background-size: 1920px;
+    background-attachment: fixed;
+    background-position: center;
+}
