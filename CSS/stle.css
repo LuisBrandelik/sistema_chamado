@@ -1,13 +1,57 @@
-{
+* {
 margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
 
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     background-image: url("../imgens/fundo-de-contorno-de-borboleta-desenhado-a-mao_23-2149021149\ 1.png");
     background-repeat: no-repeat;
-    background-size: 1920px;
+    background-size: cover;
     background-attachment: fixed;
     background-position: center;
+}
+form{
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 5px;
+width: 689px;
+height: 542px;
+background-color: #ECB7E7;
+padding: 30px;
+}
+
+label{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 25px;
+}
+
+input{
+width: 100%;
+height: 60px;
+background-color: #C5CCF4;
+font-size: 25px;
+padding: 5px;
+border-radius: 15px;
+
+}
+button{
+    background-color: #F4F4F4;
+    width: 250px;
+height: 60px;
+font-size: 32px;
+color: black;
+border-radius: 80px;
+}
+.botao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
 }
